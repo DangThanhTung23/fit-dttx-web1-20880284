@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector - Contextual</title>
+    <style type="text/css">
+        h1{
+            color:#cc3366;
+        }
+        div{
+            color:#3549fa;
+        }
+        p{
+            color:#33cc66;
+        }
+        li div{
+            background-color: #3549fa28 ;
+            margin: 20px;
+        }
+        li>div
+        {
+            font-weight: bold;
+            font-style: italic;
+            padding:10px; 
+        }
+        div *{
+            border: 1px solid #cc3366;
+        }
+    </style>
+</head>
+<body>
+    <h1>SELECTOR - CONTEXTUAL</h1>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium recusandae, reprehenderit necessitatibus dicta sed optio ad iusto voluptas est accusantium a minus inventore asperiores, quaerat tenetur ducimus nesciunt quia!</div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, necessitatibus rem commodi deserunt minus eos molestias sit illum voluptatibus placeat unde esse eveniet quod? Error nisi aperiam numquam quisquam nulla.</p>
+    <p>Doloremque tempora rem similique laboriosam quaerat, mollitia eos blanditiis maiores magnam vero quasi tempore ex odio inventore perferendis, in rerum sequi quo saepe voluptas ipsa quae esse nostrum dicta. Voluptatum!</p>
+    <ul>
+        <li>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptas debitis doloremque animi aliquam tempora facere? Adipisci ab aut odio harum necessitatibus rem, quas eveniet dolor facere voluptatem, corrupti officia.</div>
+        </li>
+        <li>
+            <div>Rerum enim veniam, vero rem nam in eos odio natus doloribus nisi facilis voluptatibus. Optio aut maxime ab reprehenderit, amet fugit, rem tempore omnis inventore eos sequi animi, ipsa enim.</div>
+        </li>
+        <li>
+            <div>Laboriosam facilis tempore corrupti aliquam architecto? Cumque ipsum reiciendis sunt temporibus rem beatae sint deserunt minima tempore et, sequi labore quo accusamus consequatur, id corporis. Mollitia laudantium corporis vero placeat?</div>
+        </li>
+        <li>
+            <section>
+                <div>Section</div>
+            </section>
+        </li> 
+    </ul>
+    <div><b>Lorem</b> ipsum dolor sit amet <i>consectetur </i>adipisicing elit. Fuga ut modi nulla nesciunt quos deleniti incidunt, quas nobis quis provident,<span>perferendis </span>perferendis molestiae hic? Accusantium, repellendus.</div>
+</body>
+</html>
